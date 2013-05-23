@@ -3,7 +3,7 @@
 if [ $1 == "install" -o $1 == "upgrade" ]; then
 
 	if pgrep xbmc.bin > /dev/null; then 
-		touch /tmp/startxbmc
+		touch /tmp/restartxbmc
 	fi
 
 fi
