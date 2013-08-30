@@ -1,11 +1,10 @@
 Origin: XBian
 Package: xbian-package-libtag
-Version: 1.0-1
+Version: 1.0-2
 Section: utils
 Priority: optional
 Architecture: armhf
 Breaks: xbian-package-xbmc (<< 2.3)
-Provides: libtag1-dev, libtag1-vanilla, libtag1c2a
-Conflicts: libtag1-dev, libtag1-vanilla, libtag1c2a, libtag1-rusxmms
+Provides: libtag1-dev, libtag1c2a, libtag1-vanilla (= 1.8-2), libtag1-rusxmms (= 1.8-2)
 Maintainer: Koenkk <development@xbian.org>
 Description: libtag for XBian
